@@ -1,0 +1,133 @@
+/* global styling */
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* header styling */
+
+header{
+    display: flex;
+    max-width: 100vw;
+    font-size: 16px;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+header h1 {
+    padding-left: 8px;
+    margin: 0;
+}
+
+header ul a{
+    padding-right: 3px;
+
+}
+
+header ul a:hover{
+    color: red;
+}
+
+header img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    align-content: center;
+}
+
+
+
+/* main container */
+main {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* about container*/
+
+.content-container{
+    margin: 25px 0;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+    border: 1px solid #000;
+}
+
+.content-container > h2{
+    flex: 0 0 20%;
+    text-align: right;
+    padding-right: 10px;
+    font-size: 2vw;
+    border-right: 1px solid #000;
+    display: flex;
+    align-items: center;
+}
+
+.content-container > div{
+    flex: 0 0 77%;
+    display: flex;
+    align-items: center;
+}
+
+/* projects class styling */
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* work class styling */
+.work{
+    border: 3px solid red;
+    min-height: 200px;
+    max-height:200px;
+    display: flex;
+    align-items: flex-end;
+}
+/* Styling for a specific project */
+ .code-refactor{
+     background-image: url(/assets/WebbySight.png);
+     width: 470px;
+ }
+/* Placeholder styling section for project2 */
+ .project2{
+     background-image: url(/assets/project2.jpg);
+     width: 266px;
+ }
+/* Placeholder styling section for project3 */
+ .project3{
+    background-image: url(/assets/project3.jpg);
+    width: 222px;
+ }
+/* Placeholder styling section for project4 */
+ .project4{
+    background-image: url(/assets/project4.jpg);
+    width: 238px;
+ }
+
+/* contact-info  styling */
+#Contact-Info a {
+   display: block;
+   justify-content: space-evenly;
+}
+
+ /* This is the footer styling */
+ .foot-container{
+    display: flex;
+    justify-content: space-evenly;
+}
